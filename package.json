@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "vite --host 0",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "publish": "vite build && rsync -avz --delete dist/ network47.org:~/tonedef"
     },
     "devDependencies": {
         "@sveltejs/vite-plugin-svelte": "^2.0.0",
