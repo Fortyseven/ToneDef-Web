@@ -11,15 +11,9 @@
     <TopNav />
     <div class="container">
         <Router url="">
-            <Route path="/">
-                <DTMF />
-            </Route>
-            <Route path="/dtmf">
-                <DTMF />
-            </Route>
-            <Route path="/bluebox">
-                <BlueBox />
-            </Route>
+            <Route path="/" component={DTMF} />
+            <Route path="/dtmf" component={DTMF} />
+            <Route path="/bluebox" component={BlueBox} />
         </Router>
         <Audio />
     </div>
