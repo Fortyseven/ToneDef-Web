@@ -1,4 +1,4 @@
-> 🚨 This application is still in development.
+> 🚨 This application is still in actively development and maybe missing features. Check back soon!
 
 # ToneDef (HTML5)
 
@@ -6,7 +6,7 @@ ToneDef is a feature-packed HTML5 tone dialer for desktop and mobile use.
 
 ## Usage
 
--   (TODO) ~~Use it [online](https://tonedef.network47.org/).~~ It runs entirely on the client side.
+-   Use it [online](https://tonedef.network47.org/). It runs entirely on the client side.
 
 ## Features
 
