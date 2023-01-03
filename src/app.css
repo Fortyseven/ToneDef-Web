@@ -1,29 +1,38 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+@font-face {
+    font-family: tonedef;
+    src: url(assets/font.woff);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+:root {
+    /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: rgba(255, 255, 255, 0.87);
+    background: linear-gradient(0deg, rgb(74, 74, 74) 0%, rgb(20, 20, 20) 100%);
+
+    /* font-synthesis: none; */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+    @media screen and (max-width: 1024px) {
+        border: 4px solid red;
+    }
+}
+
+#app {
+    height: 100vh;
 }
