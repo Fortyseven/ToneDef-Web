@@ -1,4 +1,4 @@
-> 🚨 This application is still in actively development and maybe missing features. Check back soon!
+> 🚨 This application is still in active development and may be missing features. Check back soon!
 
 # ToneDef (HTML5)
 
